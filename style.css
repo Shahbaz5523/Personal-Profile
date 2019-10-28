@@ -109,20 +109,30 @@ a:hover {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-#bottom img{
-    /* display: none; */
+#bottom img {
+    display: inline-block;
     width: 100px;
     border-radius: 50%;
+    float: left;
 }
-#bottom h1{
+#bottom h1 {
+    display: inline-block;
     color: rgb(12, 12, 12);
+    /* float: right; */
+    padding: 0;
+    /* margin: -6px; */
+    margin-left: 21px;
+    margin-bottom: 0;
 }
 #bottom h1 strong{
     color: #610fe6fd;
 }
-#bottom h4{
+#bottom h4 {
     color: gray;
+    display: block;
+    /* float: right; */
     font-size: 13px;
+    margin-left: 123px;
 }
 #age , #phone , #email, #address{
     font-size: 17px;
