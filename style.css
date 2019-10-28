@@ -7,7 +7,7 @@ h1,h2,h3,h4,h5,h6{
     margin: 0;
 }
 
-#header {
+#header ,#footer {
     display: flex;
     /* background: linear-gradient(midnightblue , #323232); */
     /* background: linear-gradient(#323232, black); */
