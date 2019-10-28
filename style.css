@@ -1,4 +1,4 @@
-body {
+ body {
     margin-right: 10px;
     background-color: rgba(255, 255, 255, 0.2);
 }
@@ -46,16 +46,16 @@ a:hover {
 }
 
 #img_container {
-    position: relative;
     border: 0px;
     display: flex;
-    justify-content: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(326780-P9JGF8-718.jpg);
+    height: 530px;
+    position: relative;
     border-radius: 10px;
-    height: 500px;
+    background-size: cover;
+    justify-content: center;
     /* border: 3px solid #fff; */
+    background-repeat: no-repeat;
+    background-image: url(326780-P9JGF8-718.jpg);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -74,23 +74,11 @@ a:hover {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.container {
-    width: 100%;
-    height: 98vh;
-    margin-top: 10px;
-    text-align: center;
-    border-radius: 10px;
-    background-color: #efefef;
-}
-
-#skills{
-    color: #743cd1;
-}
 #moveleft{
     background: url("FB_IMG_15587821935538283.jpg") !important;
     background-position: center !important;
     background-size: cover !important;
-    transition: transform 2s linear 0s;
+    transition: transform 1.5s linear 0s;
 }
 #img_container:hover .info#moveleft{
     transform: translateX(-405px);
@@ -136,6 +124,119 @@ a:hover {
     color: gray;
     font-size: 13px;
 }
+#age , #phone , #email, #address{
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-block;
+}
+#age1{
+    margin-left: 50px;
+    font-size: 15px;
+    display: inline-block;
+}
+#phone1{
+    margin-left: 30px;
+    font-size: 15px;
+    display: inline-block;
+}
+#email1{
+    margin-left: 36px;
+    font-size: 15px;
+    display: inline-block;
+}
+#address1{
+    margin-left: 15px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.container {
+    width: calc(100% - 20px);
+    height: 98vh;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #efefef;
+}
+#skillContainer{
+    display: flex;  
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+#skills{
+    color: #610fe6fd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#skillsBox{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#Pskill{
+    margin: 10px;
+    width: 350px;
+    height: 330px;
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+#ProSkills{
+    margin: auto;
+    width: 250px;
+    height: 50px;
+    color: white;
+    display: block;
+    margin-top: -20px;
+    text-align: center;
+    background-color: #610fe6fd;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+#ProSkills strong{
+    margin-top: 16px;
+    display: inline-block;
+}
+#skillnames{
+    display: flex;
+    height: 280px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.bar{
+    margin: 10px;
+}
+.bar .topBar{
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+}
+.bar .topBar p{
+    margin: 0;
+    color: darkslategray;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bar .bottomBar progress{
+    background-color: black;
+    width: 100%;
+}
+#Askill{
+    margin: 10px;
+    width: 550px;
+    height: 330px;
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
 @media screen and (max-width:875px){
 
     #img_container {
