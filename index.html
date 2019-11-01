@@ -101,45 +101,45 @@
 							<div class="topBar"><p>HTML</p><p>95%</p></div>
 							<div class="bottomBar">
 								<!-- <progress value="98" max="100"> -->
-									<div class="progressBar">
-										<div class="progressValue1"></div>
-									</div>
+								<div class="progressBar">
+									<div class="progressValue1"></div>
+								</div>
 							</div>
 						</div>
 						<div class="bar">
 							<div class="topBar"><p>CSS</p><p>80%</p></div>
 							<div class="bottomBar">
 								<!-- <progress value="80" max="100"> -->
-										<div class="progressBar">
-											<div class="progressValue2"></div>
-										</div>
+									<div class="progressBar">
+										<div class="progressValue2"></div>
+									</div>
 								</div>
 						</div>
 						<div class="bar">
 							<div class="topBar"><p>JavaScript</p><p>70%</p></div>
 							<div class="bottomBar">
 								<!-- <progress value="70" max="100"> -->
-										<div class="progressBar">
-											<div class="progressValue3"></div>
-										</div>
+									<div class="progressBar">
+										<div class="progressValue3"></div>
+									</div>
 								</div>
 						</div>
 						<div class="bar">
 								<div class="topBar"><p>Jquery</p><p>50%</p></div>
 								<div class="bottomBar">
 									<!-- <progress value="50" max="100"> -->
-											<div class="progressBar">
-												<div class="progressValue4"></div>
-											</div>
+										<div class="progressBar">
+											<div class="progressValue4"></div>
+										</div>
 									</div>
 							</div>
 						<div class="bar">
 							<div class="topBar"><p>Photoshop</p><p>60%</p></div>
 							<div class="bottomBar">
 								<!-- <progress value="60" max="100"> -->
-										<div class="progressBar">
-											<div class="progressValue5"></div>
-										</div>
+								<div class="progressBar">
+									<div class="progressValue5"></div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -150,15 +150,9 @@
 				<div id="Askill">
 					<span id="ProSkills"><strong>ADDITIONAL SKILLS</strong></span>
 					<div id="circleContainer">
-						<div class="circleBox">
-							<strong>60%</strong>
-						</div>
-						<div class="circleBox">
-							<strong>50%</strong>
-						</div>
-						<div class="circleBox">
-							<strong>80%</strong>
-						</div>
+						<div class="chart1" data-percent="73"><span>English</span></div>
+						<div class="chart2" data-percent="80"><span>Creativity</span></div>
+						<div class="chart3" data-percent="60"><span>Teamwork</span></div>
 					</div>
 				</div>
 
@@ -179,13 +173,22 @@
 			<div id="EduBox">
 		
 				<div class="eduCard">
-						<span class="eduDate"><strong>2016-2017</strong></span>
+					<span class="eduDate"><strong>2017-2018</strong></span>
+					<div class="edu">
+						
+					</div>
 				</div>
 				<div class="eduCard">
-						<span class="eduDate"><strong>2017-2018</strong></span>
+					<span class="eduDate"><strong>2019-2020</strong></span>
+					<div class="edu">
+						
+					</div>
 				</div>
 				<div class="eduCard">
-						<span class="eduDate"><strong>2018-2021</strong></span>
+					<span class="eduDate"><strong>2018-2021</strong></span>
+					<div class="edu">
+						
+					</div>
 				</div>
 		
 			</div>
@@ -223,6 +226,30 @@
 	</div>
 
 	<script src="script.js"></script>
+	<script src="jquery-1.11.3.min.js"></script>
+    <script src="jquery.easypiechart.js"></script>
+    <script>
+        $(function(){
+           $('.chart1').easyPieChart({
+                barColor:'green',
+                trackColor:'#c1c1c1',
+                lineWidth:'10',
+                size:'140',
+           });
+           $('.chart2').easyPieChart({
+                barColor:'green',
+                trackColor:'#c1c1c1',
+                lineWidth:'10',
+                size:'140',
+           });
+           $('.chart3').easyPieChart({
+                barColor:'green',
+                trackColor:'#c1c1c1',
+                lineWidth:'10',
+                size:'140',
+           }); 
+        });
+    </script>
 
 </body>
 

@@ -8,18 +8,15 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #header ,#footer {
-    display: flex;
-    /* background: linear-gradient(midnightblue , #323232); */
-    /* background: linear-gradient(#323232, black); */
-    background: linear-gradient(#5a77ff, #743cd1);
-    color: #fff;
     width: 100%;
     padding: 3px;
-    /* border: 3px solid #fff; */
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    font-family: "Raleway", sans-serif;
+    color: #fff;
+    display: flex;
     overflow: hidden;
+    border-radius: 10px;
+    font-family: "Raleway", sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background: linear-gradient(#5a77ff, #743cd1);
 }
 
 p {
@@ -36,9 +33,9 @@ span {
 }
 
 a {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #fff;
     text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 a:hover {
@@ -53,7 +50,6 @@ a:hover {
     border-radius: 10px;
     background-size: cover;
     justify-content: center;
-    /* border: 3px solid #fff; */
     background-repeat: no-repeat;
     background-image: url(326780-P9JGF8-718.jpg);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -84,20 +80,20 @@ a:hover {
     transform: translateX(-405px);
 }
 #top{
-    position: relative;
     height: 70px;
+    position: relative;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background: linear-gradient(#5a77ff, #743cd1);    
 }
 #top h2{
-    position: absolute;
-    top: 20px;
     left: 0;
     right: 0;
     bottom: 0;
+    top: 20px;
     margin: auto;
     color: white;
+    position: absolute;
 }
 
 #bottom{
@@ -105,24 +101,22 @@ a:hover {
     text-align: left;
     padding-top: 20px;
     padding-left: 15px;
-    font-family: Arial, Helvetica, sans-serif;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #bottom img {
-    display: inline-block;
+    float: left;
     width: 100px;
     border-radius: 50%;
-    float: left;
+    display: inline-block;
 }
 #bottom h1 {
+    padding: 0;
+    margin-bottom: 0;
+    margin-left: 21px;
     display: inline-block;
     color: rgb(12, 12, 12);
-    /* float: right; */
-    padding: 0;
-    /* margin: -6px; */
-    margin-left: 21px;
-    margin-bottom: 0;
 }
 #bottom h1 strong{
     color: #610fe6fd;
@@ -130,7 +124,6 @@ a:hover {
 #bottom h4 {
     color: gray;
     display: block;
-    /* float: right; */
     font-size: 13px;
     margin-left: 123px;
 }
@@ -140,23 +133,23 @@ a:hover {
     display: inline-block;
 }
 #age1{
-    margin-left: 50px;
     font-size: 15px;
+    margin-left: 50px;
     display: inline-block;
 }
 #phone1{
-    margin-left: 30px;
     font-size: 15px;
+    margin-left: 30px;
     display: inline-block;
 }
 #email1{
-    margin-left: 36px;
     font-size: 15px;
+    margin-left: 36px;
     display: inline-block;
 }
 #address1{
-    margin-left: 15px;
     font-size: 15px;
+    margin-left: 15px;
     display: inline-block;
 }
 
@@ -198,7 +191,6 @@ a:hover {
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
 }
 #ProSkills{
-    border-radius: 3px;
     margin: auto;
     width: 250px;
     height: 50px;
@@ -206,9 +198,10 @@ a:hover {
     display: block;
     margin-top: -20px;
     text-align: center;
-    background: linear-gradient(#5a77ff, #743cd1);
+    border-radius: 3px;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+    background: linear-gradient(#5a77ff, #743cd1);
 }
 #ProSkills strong{
     margin-top: 16px;
@@ -291,41 +284,41 @@ a:hover {
 }
 .progressBar{
     width: 100%;
-    height: 17px;
+    height: 15px;
     border-radius: 10px;
     background-color: #c1c1c1;
 }
 .progressValue1{
     width: 95%;
-    height: 17px;
+    height: 15px;
     border-radius: 10px;
     background-color: green;
     transition: width 1s linear 0s;
 }
 .progressValue2{
     width: 80%;
-    height: 17px;
+    height: 15px;
     border-radius: 10px;
     background-color: green;
     transition: width 1s linear 0s;
 }
 .progressValue3{
     width: 70%;
-    height: 17px;
+    height: 15px;
     border-radius: 10px;
     background-color: green;
     transition: width 1s linear 0s;
 }
 .progressValue4{
     width: 50%;
-    height: 17px;
+    height: 15px;
     border-radius: 10px;
     background-color: green;
     transition: width 1s linear 0s;
 }
 .progressValue5{
     width: 60%;
-    height: 17px;
+    height: 15px;
     border-radius: 10px;
     background-color: green;
     transition: width 1s linear 0s;
@@ -342,17 +335,20 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
-    height: 280px;
-    margin-top: 20px;
+    margin-top: 50px;
+    justify-content: center;
 }
-.circleBox{
+.chart1,.chart2,.chart3{
     position: relative;
-    margin: 30px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 10px solid  gray;
+    text-align: center;
+    margin: 20px;
+}
+.chart1 span,.chart2 span,.chart3 span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .circleBox strong{
@@ -364,11 +360,10 @@ a:hover {
 #eduContainer{
     display: flex;  
     flex-wrap: wrap;
+    margin-top: 50px;
+    justify-items: center;
     flex-direction: column;
     justify-content: center;
-    justify-items: center;
-    /* background-color: lightblue; */
-    margin-top: 50px;
 }
 
 .eduCard{
@@ -396,6 +391,12 @@ a:hover {
 .eduDate strong{
     margin-top: 16px;
     display: inline-block;
+}
+.edu{
+    margin-top: 10px;
+    width: 300px;
+    height: 220px;
+    background-color: #743cd1;
 }
 
 @media screen and (max-width:875px){
