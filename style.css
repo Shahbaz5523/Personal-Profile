@@ -51,7 +51,7 @@ a:hover {
     background-size: cover;
     justify-content: center;
     background-repeat: no-repeat;
-    background-image: url(18.jpg);
+    background-image: url(18.webp);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -71,7 +71,7 @@ a:hover {
 }
 
 #moveleft{
-    background: url("FB_IMG_15587821935538283.jpg") !important;
+    background: url("FB_IMG_15587821935538283.webp") !important;
     background-position: center !important;
     background-size: cover !important;
     transition: transform 1s linear 0s;
